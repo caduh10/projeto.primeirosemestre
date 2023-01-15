@@ -1,0 +1,307 @@
+@import url("./CURSOS.css");
+
+/* Reset e configurações padrão: */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Página Inicial: */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: space-between;
+  height: 20vh;
+  background-color: #f3f3f3;
+}
+
+.menu-logotipo {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.menu-botoes {
+  display: flex;
+  justify-content: end;
+  margin-right: 80px;
+  gap: 30px;
+}
+
+.menu-botoes a {
+  font-family: Roboto;
+  font-size: 25px;
+  text-decoration: none;
+  color: #c77f8b;
+  position: relative;
+}
+
+.menu-botoes a:first-child {
+  font-weight: 800;
+}
+
+/* Texto e imagem do Início: */
+
+.inicio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f3f3f3;
+  color: #c77f8b;
+  height: 80vh;
+}
+
+.inicio-texto {
+  font-family: roboto;
+  flex-direction: column;
+  margin-left: 60px;
+  max-width: 70ch;
+}
+
+.inicio-texto h1 {
+  font-size: 100px;
+  font-family: Great Vibes;
+}
+
+.inicio-texto p {
+  font-size: 34px;
+  max-width: 26ch;
+  color: #c77f8b;
+}
+
+.inicio-imagem {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.inicio-imagem img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.inicio-imagem img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Página "Agende Comigo" */
+
+.agende {
+  font-family: Roboto;
+  height: 1440px;
+  background-color: #c77f8b;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  gap: 30px;
+  height: 100vh;
+  text-align: center;
+}
+
+.agende-texto {
+  font-size: 45px;
+  color: #fdcbd7;
+  font-weight: 700;
+}
+
+.agende-imagens {
+  display: flex;
+  place-content: center;
+  gap: 10px;
+}
+
+.agende-imagens img {
+  opacity: 50%;
+}
+
+.agende-imagens img:hover {
+  transition: 0.8s;
+  opacity: 100%;
+}
+
+.valores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.valores a {
+  font-size: 30px;
+  color: #fdcbd7;
+}
+
+.agende-botao {
+  display: flex;
+  justify-content: center;
+}
+
+.agende-botao a {
+  color: #c77f8b;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #fdcbd7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Outras páginas: */
+
+.cursos {
+  height: 100vh;
+}
+
+/* Página "Sobre" */
+.sobre {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #c77f8b;
+}
+
+.sobre img {
+  object-fit: cover;
+}
+
+.sobre-texto {
+  flex-direction: column;
+  margin-left: 80px;
+  font-family: roboto;
+}
+
+.sobre-texto h2 {
+  font-size: 60px;
+  margin-top: 40px;
+  color: white;
+}
+
+.sobre-texto span {
+  font-family: great vibes;
+  color: #fdcbd7;
+}
+
+.sobre-texto p {
+  font-size: 28px;
+  color: white;
+  max-width: 40ch;
+}
+
+/* Página Contato-Footer */
+
+.contato {
+  height: 100vh;
+  font-family: roboto;
+}
+
+.contato-parte1 {
+  padding: 60px;
+  background-color: #c77f8b;
+}
+
+.contato-parte1,
+p {
+  color: white;
+  font-size: 32px;
+}
+
+.contato-parte1 h3 {
+  color: white;
+  font-size: 60px;
+}
+
+.contato-parte1 span {
+  text-transform: uppercase;
+  color: #fdcbd7;
+}
+
+.formulario-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.formulario-footer input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  color: #c77f8b;
+}
+
+input::placeholder {
+  color: #c77f8b;
+}
+
+.botao {
+  max-width: max-content;
+  padding: 8px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  color: #c77f8b;
+  background-color: #fdcbd7;
+}
+
+.botao:hover {
+  background-color: #ffffff;
+  transition: 0.6s;
+}
+
+.contato-parte2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  gap: 60px;
+}
+
+.endereco {
+  display: flex;
+  flex-direction: row;
+  grid-column: 1;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.endereco p {
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 20px;
+}
+
+.logotipo-footer {
+  place-self: center;
+  grid-column: 2;
+  grid-row: 1/-1;
+}
+
+.footer-direitos {
+  color: #c77f8b;
+  text-align: center;
+  font-size: 15px;
+}
+

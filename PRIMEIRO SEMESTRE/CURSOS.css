@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+    /* INICIO HEADER */
+
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 20vh;
+  }
+  
+  .menu-logotipo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: great vibes;
+    font-size: 30px;
+    color: #c77f8b;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  
+  .menu-botoes {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    margin-right: 80px;
+  }
+  
+  .menu-botoes a {
+    font-family: Roboto;
+    font-size: 25px;
+    text-decoration: none;
+    color: #c77f8b;
+  }
+
+  /* FINAL HEADER */
+  
+
+/* INICIO MAIN */
+  .descricao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 600;
+  font-family: great vibes;
+  color: #c77f8b;
+  border-top: 4px solid #c77f8b;
+ }
+
+  .principal{
+    display: flex;
+    flex-direction: row;
+    place-content: space-around;
+    align-items: center;
+    background-color: #fdcbd7;
+    border-top: 4px solid #c77f8b;
+  }
+  
+  .txt-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .txt-principal h1{
+    padding-top: 20px;
+    font-family: great vibes;
+    color: #c77f8b;
+    font-size: 100px;
+  }
+
+  .txt-principal p{
+    font-family: roboto;
+    color: #c77f8b;
+    font-size: 26px;
+    max-width: 40ch;
+  }
+  
+  .principal img{
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 30px;
+    
+    
+  }
+
+
+  .fio{
+    display: flex;
+    flex-direction: row;
+    place-content: space-around;
+    align-items: center;
+    background-color: #fdcbd7;
+  }
+    
+  .txt-fio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fio h1{
+    padding-top: 20px;
+    font-family: great vibes;
+    color: #c77f8b;
+    font-size: 100px;
+}
+
+.fio p{
+    font-family: roboto;
+    color: #c77f8b;
+    font-size: 26px;
+    max-width: 40ch;
+}
+
+
+.fio img{
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 30px;
+}
+  
+.russo{
+  display: flex;
+    flex-direction: row;
+    place-content: space-around;
+    align-items: center;
+    background-color: #fdcbd7;
+}
+
+.txt-russo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.russo h1{
+  padding-top: 20px;
+  font-family: great vibes;
+  color: #c77f8b;
+  font-size: 100px;
+}
+
+.russo p{
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 26px;
+  max-width: 40ch;
+}
+
+
+.russo img{
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 30px;
+
+}
+  
+.hibrido{
+  display: flex;
+  flex-direction: row;
+  place-content: space-around;
+  align-items: center;
+  background-color: #fdcbd7;
+}
+  
+.txt-hibrido{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hibrido h1{
+  padding-top: 20px;
+  font-family: great vibes;
+  color: #c77f8b;
+  font-size: 100px;
+}
+
+.hibrido p{
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 26px;
+  max-width: 40ch;
+}
+
+
+.hibrido img{
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 30px;
+}
+  
+.brasileiro{
+  display: flex;
+    flex-direction: row;
+    place-content: space-around;
+    align-items: center;
+    background-color: #fdcbd7;
+    border-bottom: 4px solid #c77f8b;
+}
+
+.txt-brasileiro{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brasileiro h1{
+  padding-top: 20px;
+  font-family: great vibes;
+  color: #c77f8b;
+  font-size: 100px;
+}
+
+.brasileiro p{
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 26px;
+  max-width: 40ch;
+}
+
+
+.brasileiro img{
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* FINAL MAIN */
+
+/* INICIO FOOTER */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+.txt-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.txt-footer h1{
+  padding-top: 20px;
+  font-family: great vibes;
+  color: #c77f8b;
+  font-size: 100px;
+}
+
+.txt-footer p{
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 26px;
+  max-width: 40ch;
+}
+
+.video{
+  padding: 20px;
+}
+
+
+.formulario h1{
+  
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 50px;
+}
+
+.letra{
+  font-family: great vibes;
+}
+
+.formulario h2{
+  padding-top: 20px;
+  font-family: roboto;
+  color: #c77f8b;
+  font-size: 50px;
+}
+
+.label{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.label input{
+  padding: 5px;
+  border-color: #c77f8b;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  color: #c77f8b;
+}
+
+input::placeholder {
+  color: #c77f8b;
+}
+
+.botao{
+  max-width: max-content;
+  padding: 8px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 800;
+  border-color: #c77f8b;
+  border-radius: 5px;
+  color: #c77f8b;
+  background-color: #fdcbd7;
+}
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+ 
+  
